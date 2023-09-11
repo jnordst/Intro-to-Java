@@ -19,7 +19,7 @@ public class Teacher extends Person { // The extends keyword is used to create a
     public Teacher(String name, int age, String email, String address, String employeeId, String department, Double salary) {
         // The super keyword is used to call the constructor of the parent class.
         // In this case we are calling the constructor of the Person class.
-        super(name, age, email);
+        super(name, age, email, address);
 
         // Accessing fields from the parent class
         this.name = name; // We can access the name field because it is public.
