@@ -9,7 +9,6 @@ Covers the basics of working with Java.
 - Variable Declaration
 
 ## Classes
-- Description
 - Fields
 - Methods
 - Constructors
