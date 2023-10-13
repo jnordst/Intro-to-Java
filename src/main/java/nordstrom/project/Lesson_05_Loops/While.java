@@ -22,6 +22,7 @@ public class While {
         int i = 0;
         while (i < 5) {
             System.out.println(i); // -> 0, 1, 2, 3, 4
+            i++; // Increment i by 1
 
             // This code will be executed 5 times
             // The variable i will be incremented by 1 each time the code is executed
@@ -41,27 +42,26 @@ public class While {
         int j = 0;
         while (j < weekdays.size()) {
             System.out.println(weekdays.get(j)); // -> Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday
-            j++;
+            j++; // Increment j by 1
         }
 
         // Loop while a condition is true
-        boolean isTrue = true;
-        while (isTrue) {
-            // This code will be executed until isTrue is set to false
-            isTrue = false;
+        boolean myBool = true;
+        while (myBool) { // Same as saying while(myBool == true)
+            // This code will be executed until myBool is set to false
+            myBool = false;
         }
 
         // do while loop
-        int k = 0;
+        int k = 5;
         do {
-            System.out.println(k); // -> 0, 1, 2, 3, 4
+            System.out.println(k); // -> 5
             k++;
         } while (k < 5);
 
         // do while loop is executed AT LEAST once before the condition is checked
-        // This code will be executed 5 times
-        // The variable k will be incremented by 1 each time the code is executed
-        // The loop will stop when k is no longer less than 5
+        // This code will be executed once even though the variable is NOT less than 5
+        // After the code is run the condition is checked and the loop is exited
 
     }
 }

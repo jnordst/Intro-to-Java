@@ -1,7 +1,7 @@
 package nordstrom.project.Lesson_04_Functions;
 
 public class ArgsAndParams {
-    // Functions can accept parameters, which are values that are passed into the function.
+    // Functions can accept parameters, which are values that are passed into the function as arguments.
     // Parameters are specified inside the parentheses after the name of the function.
     // Parameters are separated by commas.
     // Parameters can be any data type, including custom classes, depending on the function's requirements.
@@ -11,7 +11,7 @@ public class ArgsAndParams {
         // Code to be executed
         // This function accepts two parameters, an int and a String
 
-        // We can access the values of the parameters inside the function
+        // We can access the values of the parameters inside the function body by using the name of the parameter
         int myInt2 = myInt;
         String myString2 = myString;
 
@@ -19,7 +19,7 @@ public class ArgsAndParams {
         print("Hello, World!"); // These are called arguments when they are passed into the function
     }
 
-    public void print(String myString) {
-        System.out.println(myString);
+    void print(String output) {
+        System.out.println(output);
     }
 }

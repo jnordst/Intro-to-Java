@@ -7,6 +7,7 @@ public class Person {
     // This class will be used as a blueprint for a Person Object.
 
 
+    // Properties/Fields
     // Fields are like variables, but they belong to the class in which they are defined, and they can be accessed from any method in that class.
     // Fields that are declared public can be accessed from anywhere.
     // Private fields are accessible only within the class in which they are declared.
@@ -68,6 +69,7 @@ public class Person {
     // Constructors are special methods that are used to create instances of a class.
     // Constructors are used to initialize the fields of an object.
     // Constructors are called when an object is created using the new keyword.
+    // A constructor should have the same name as the class and no return type.
 
     public Person(String name, int age, String email, String address) {
         // By default you can just set the fields directly
