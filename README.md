@@ -33,3 +33,8 @@ Covers the basics of working with Java.
 - ``for i`` Loop
 - ``for each`` Loop
 - ``while`` Loop
+
+## Exceptions
+- Making a Class that has built-in Validation and Authorization
+- ``try`` and ``catch``
+- "Throwing" Exceptions
