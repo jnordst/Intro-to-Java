@@ -10,7 +10,7 @@ public class Github {
             // Github is a website that hosts Git repositories.
             // Github Desktop lets you manage your Git repositories from a handy GUI.
 
-    // How to create a new Github repository using Intelij.
+    // How to create a new Github repository using Intellij.
         // 1 Click on the VCS tab on the top banner (Version Control System)
         // 2. Click on Share Project on Github
         // 3. Enter a name for your repository
