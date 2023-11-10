@@ -73,8 +73,8 @@ public class Person {
 
     public void setEmail(String email) {
         // Check if the email contains an @ symbol
-        if (email.contains("@")) {
-            // If the email does contain an @ symbol, throw an exception.
+        if (!email.contains("@")) {
+            // If the email does NOT contain an @ symbol, throw an exception.
             throw new IllegalArgumentException("Please provide a valid email address.");
         }
 
