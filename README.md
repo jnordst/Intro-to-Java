@@ -25,7 +25,7 @@ Covers the basics of working with Java.
 - Scope
 - ``super`` Keyword
 
-## Lesson 03
+## Lesson 04
 ### Functions
 - Access Type
 - Return Type
@@ -33,13 +33,13 @@ Covers the basics of working with Java.
 - Arguments
 - Scope
 
-## Lesson 04
+## Lesson 05
 ### Loops
 - ``for i`` Loop
 - ``for each`` Loop
 - ``while`` Loop
 
-## Lesson 05
+## Lesson 06
 ### Exceptions
 - Making a Class that has built-in Validation and Authorization
 - ``try`` and ``catch``
