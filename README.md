@@ -1,6 +1,13 @@
 # Intro-To-Java
 Covers the basics of working with Java.
 
+## Lesson 00
+### Getting Started
+- Intellij
+- Writing to the Console
+- Reading User Input
+- Git and Github with Intellij
+
 ## Lesson 01
 ### Data Types and Variables
 - Integers
