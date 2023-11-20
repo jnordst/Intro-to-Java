@@ -1,14 +1,16 @@
 # Intro-To-Java
 Covers the basics of working with Java.
 
-## Data Types and Variables
+## Lesson 01
+### Data Types and Variables
 - Integers
 - Strings
 - Booleans
 - Arrays (Lists, and ArrayLists)
 - Variable Declaration
 
-## Classes
+## Lesson 02
+### Classes
 - Fields
 - Methods
 - Constructors
@@ -16,25 +18,29 @@ Covers the basics of working with Java.
 - Getters/Setters
 - ``this`` Keyword
 
-## Subclasses
+## Lesson 03
+### Subclasses
 - Inheritance
 - Protected Fields
 - Scope
 - ``super`` Keyword
 
-## Functions
+## Lesson 03
+### Functions
 - Access Type
 - Return Type
 - Parameters
 - Arguments
 - Scope
 
-## Loops
+## Lesson 04
+### Loops
 - ``for i`` Loop
 - ``for each`` Loop
 - ``while`` Loop
 
-## Exceptions
+## Lesson 05
+### Exceptions
 - Making a Class that has built-in Validation and Authorization
 - ``try`` and ``catch``
 - "Throwing" Exceptions
