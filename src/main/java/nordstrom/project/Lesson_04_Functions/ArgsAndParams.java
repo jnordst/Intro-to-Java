@@ -7,19 +7,22 @@ public class ArgsAndParams {
     // Parameters can be any data type, including custom classes, depending on the function's requirements.
     // Arguments are the actual values that are passed into the function. They are specified when the function is called.
 
-    public void myFunction4(int myInt, String myString) { // Note the parameters are specified here
-        // Code to be executed
-        // This function accepts two parameters, an int and a String
+    public void add(int num1, int num2) { // Note the parameters are specified here
+        // This function accepts two parameters, both ints
+        // This function adds together the sum of the parameters and prints the result
+        // You can access the parameters like any other variable to perform operations on them
+        // You can even change the value of the parameters if you want
 
-        // We can access the values of the parameters inside the function body by using the name of the parameter
-        int myInt2 = myInt;
-        String myString2 = myString;
+        // Add the two numbers together
+        int sum = num1 + num2;
 
-        // We can also pass ARGUMENTS into the function when we call it
-        print("Hello, World!"); // These are called arguments when they are passed into the function
+        // Print the result
+        System.out.println(sum);
     }
 
-    void print(String output) {
-        System.out.println(output);
+    public void Main() {
+        // Calling the add() Function
+        add(5, 10); // These are called arguments when they are passed into the function
+        // -> 15
     }
 }

@@ -16,6 +16,32 @@ public class Teacher extends Person { // The extends keyword is used to create a
     private String department;
     private Double salary;
 
+    // Getters and Setters
+    public String getEmployeeId() {
+        return employeeId;
+    }
+
+    public void setEmployeeId(String employeeId) {
+        this.employeeId = employeeId;
+    }
+
+    public String getDepartment() {
+        return department;
+    }
+
+    public void setDepartment(String department) {
+        this.department = department;
+    }
+
+    public Double getSalary() {
+        return salary;
+    }
+
+    public void setSalary(Double salary) {
+        this.salary = salary;
+    }
+
+    // Constructor
     public Teacher(String name, int age, String email, String address, String employeeId, String department, Double salary) {
         // The super keyword is used to call the constructor of the parent class.
         // In this case we are calling the constructor of the Person class.

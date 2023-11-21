@@ -16,6 +16,34 @@ public class Student extends Person { // The extends keyword is used to create a
     private String studentNumber;
     private int grade;
 
+    // We do not need to respecify the Getters and Setters from the Person class because they are inherited by the Student class.
+
+    // Getters and Setters
+    public String getProgram() {
+        return program;
+    }
+
+    public void setProgram(String program) {
+        this.program = program;
+    }
+
+    public String getStudentNumber() {
+        return studentNumber;
+    }
+
+    public void setStudentNumber(String studentNumber) {
+        this.studentNumber = studentNumber;
+    }
+
+    public int getGrade() {
+        return grade;
+    }
+
+    public void setGrade(int grade) {
+        this.grade = grade;
+    }
+
+    // Constructor
     public Student(String name, int age, String email, String address, String program, String studentNumber, int grade) {
         // The super keyword is used to call the constructor of the parent class.
         // In this case we are calling the constructor of the Person class.

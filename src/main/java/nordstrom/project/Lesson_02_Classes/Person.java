@@ -6,13 +6,12 @@ public class Person {
     // A class can be used to create many objects. Objects created at runtime from a class are called instances of that particular class.
     // This class will be used as a blueprint for a Person Object.
 
-
-    // Properties/Fields
+    // Properties/Fields/Attributes
     // Fields are like variables, but they belong to the class in which they are defined, and they can be accessed from any method in that class.
     // Fields that are declared public can be accessed from anywhere.
     // Private fields are accessible only within the class in which they are declared.
     // Alternatively you can not specifiy private/public and the field will default to private.
-    // Fields should always be declared at the top, before methods.
+    // Fields should always be declared at the top of a Class, before methods.
 
     public String name; // public field
     private int age; // private field
@@ -33,7 +32,9 @@ public class Person {
     // Setters are used to update the value of a private field.
     // Why bother using them? Why not just make the fields public?
     // Because getters and setters allow you to control how the fields are accessed and updated.
+    // While we won't cover that in this lesson, it is talked about in more detail in Lesson_06_Exceptions.
 
+    // Getters and Setters
     public String getName() {
         return name;
     }
@@ -71,6 +72,7 @@ public class Person {
     // Constructors are called when an object is created using the new keyword.
     // A constructor should have the same name as the class and no return type.
 
+    // Constructor
     public Person(String name, int age, String email, String address) {
         // By default you can just set the fields directly
         this.name = name;
@@ -92,6 +94,7 @@ public class Person {
     // Constructor overloading allows you to create objects in different ways.
     // For example, you can create an object with just a name, or with a name and age, or with a name, age and email.
 
+    // Overloaded Constructor
     public Person(String name, int age) {
         this.name = name;
         this.age = age;
